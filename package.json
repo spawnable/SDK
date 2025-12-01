@@ -1,0 +1,15 @@
+{
+  "name": "APP",
+  "version": "1.0.0",
+  "dependencies": {
+    "on": "file:../../MY-NODE-APP9CB40F00-65B1-4B08-8092-32BCE6DDE16B/src/engine",
+    "up": "file:../../MY-NODE-APPE51C32F1-847A-4A7B-99A3-FF485077904B/src"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "clone": "node clone.js",
+    "draft": "node lib/draft.js",
+    "image": "node lib/image.js",
+    "range": "node lib/range.js"
+  }
+}
